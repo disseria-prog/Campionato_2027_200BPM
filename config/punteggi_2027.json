@@ -1,0 +1,53 @@
+{
+  "basi": {
+    "Sprint": 5,
+    "Atipico": 7.5,
+    "Olimpico": 10,
+    "Medio": 15,
+    "Superlungo": 20
+  },
+  "nuoto_passi": [
+    {"max_sec": 95, "punti": {"Sprint": 20, "Atipico": 22.5, "Olimpico": 25, "Medio": 25, "Superlungo": 30}},
+    {"max_sec": 100, "punti": {"Sprint": 17.5, "Atipico": 20, "Olimpico": 22.5, "Medio": 22.5, "Superlungo": 27.5}},
+    {"max_sec": 110, "punti": {"Sprint": 15, "Atipico": 17.5, "Olimpico": 20, "Medio": 20, "Superlungo": 25}},
+    {"max_sec": 120, "punti": {"Sprint": 12.5, "Atipico": 12.5, "Olimpico": 15, "Medio": 15, "Superlungo": 20}},
+    {"max_sec": 130, "punti": {"Sprint": 10, "Atipico": 10, "Olimpico": 10, "Medio": 10, "Superlungo": 15}},
+    {"max_sec": 140, "punti": {"Sprint": 5, "Atipico": 5, "Olimpico": 5, "Medio": 5, "Superlungo": 10}},
+    {"max_sec": 9999, "punti": {"Sprint": 0, "Atipico": 0, "Olimpico": 0, "Medio": 0, "Superlungo": 5}}
+  ],
+  "t1_t2": [
+    {"differenza_sec": 15, "punti": 10},
+    {"differenza_sec": 30, "punti": 7.5},
+    {"differenza_sec": 45, "punti": 5},
+    {"differenza_sec": 60, "punti": 2.5},
+    {"differenza_sec": 9999, "punti": 0},
+    {"assente": 5}
+  ],
+  "bici_velocita": [
+    {"min_kmh": 37.5, "punti": {"Sprint": 20, "Atipico": 25, "Olimpico": 30, "Medio": 40, "Superlungo": 50}},
+    {"min_kmh": 35.0, "punti": {"Sprint": 15, "Atipico": 20, "Olimpico": 25, "Medio": 35, "Superlungo": 45}},
+    {"min_kmh": 32.5, "punti": {"Sprint": 10, "Atipico": 15, "Olimpico": 20, "Medio": 30, "Superlungo": 40}},
+    {"min_kmh": 30.0, "punti": {"Sprint": 5, "Atipico": 10, "Olimpico": 15, "Medio": 25, "Superlungo": 35}},
+    {"min_kmh": 27.5, "punti": {"Sprint": 2.5, "Atipico": 6, "Olimpico": 10, "Medio": 20, "Superlungo": 30}},
+    {"min_kmh": 0.0, "punti": {"Sprint": 0, "Atipico": 2.5, "Olimpico": 5, "Medio": 15, "Superlungo": 25}}
+  ],
+  "dislivello_bici": [
+    {"soglia": 1500, "punti": 20},
+    {"soglia": 1000, "punti": 17.5},
+    {"soglia": 750, "punti": 15},
+    {"soglia": 500, "punti": 10},
+    {"soglia": 200, "punti": 5},
+    {"soglia": 0, "punti": 0}
+  ],
+  "dislivello_corsa": [
+    {"soglia": 300, "punti": 10},
+    {"soglia": 150, "punti": 5},
+    {"soglia": 0, "punti": 0}
+  ],
+  "classifica_categoria": {
+    "1": 15, "2": 12, "3": 10, "4": 7, "5": 6, "6": 5, "7": 4, "8": 3, "9": 2, "10": 1
+  },
+  "classifica_squadra": {
+    "1": 7, "2": 5, "3": 3, "4": 2, "5": 1
+  }
+}
